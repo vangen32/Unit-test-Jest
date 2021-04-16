@@ -7,7 +7,6 @@ export class User{
     // Валідація пошти
     _isValidMail(email){
         var re = /\S+@\S+\.\S+/;
-        console.log("IS "+ re.test(email))
         return re.test(email);
     }
 
@@ -47,7 +46,6 @@ export class User{
         }
         return false;
     }
-
     getMail(){
         return this.mail;
     }

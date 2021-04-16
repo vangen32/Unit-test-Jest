@@ -22,8 +22,8 @@ export class Form{
         this.inputBut.disabled = "disabled";
 
         this.form.append(this.inputMail, this.inputPass, this.inputPassRepead, this.inputBut);
-        let fd = document.getElementById("forForm");
-        fd.append(this.form);
+        // let fd = document.getElementById("forForm");
+        // fd.append(this.form);
     }
 
     // Перевірка умов для розблокування кнопки
